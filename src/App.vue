@@ -6,26 +6,22 @@
     <div class="form-container">
       <div>
         <label :style="{ color: paciente ? 'black' : 'red' }" for="paciente"
-          >Paciente</label
-        >
-        <input v-model="paciente" type="text" id="paciente" />
+          >Paciente</label>
+        <input v-model="paciente" type="text" id="paciente"/>
       </div>
       <div>
         <label :style="{ color: fecha ? 'black' : 'red' }" for="fecha"
-          >Fecha</label
-        >
-        <input v-model="fecha" type="date" id="fecha" />
+          >Fecha</label>
+        <input v-model="fecha" type="date" id="fecha"/>
       </div>
       <div>
         <label :style="{ color: hora ? 'black' : 'red' }" for="hora"
-          >Hora</label
-        >
-        <input v-model="hora" type="time" id="hora" />
+          >Hora</label>
+        <input v-model="hora" type="time" id="hora"/>
       </div>
       <div>
         <label :style="{ color: gravedad ? 'black' : 'red' }" for="gravedad"
-          >Gravedad</label
-        >
+          >Gravedad</label>
         <select v-model="gravedad" id="gravedad">
           <option value="">Seleccionar</option>
           <option value="alta">Alta</option>
@@ -35,9 +31,8 @@
       </div>
       <div>
         <label :style="{ color: motivo ? 'black' : 'red' }" for="motivo"
-          >Motivo</label
-        >
-        <input v-model="motivo" type="text" id="motivo" />
+          >Motivo</label>
+        <input v-model="motivo" type="text" id="motivo"/>
       </div>
     </div>
     <div class="boton-agregar">
